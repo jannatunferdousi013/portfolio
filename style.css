@@ -5,12 +5,17 @@ body{
     
     font-family: "Open Sans", sans-serif;
     
+    
    }
    .my-head{
+    /* display: none; */
     background-color: #fff8F3;
     background-image: url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,left;
+   }
+   .main{
+    /* display: none; */
    }
 .pasapasi{
     display: flex;
@@ -178,13 +183,16 @@ margin-top: 50px;
 .sontan-8{
     padding: 24px;
 }
+.down{
+    text-align: center;
+}
 .p-button{
     background-color: #FD6E0A;
     color: white;
     padding: 19px 17px;
     border: none;
     border-radius: 5px;
-    margin: 0px 700px 45px;
+    /* margin: 0px 700px 45px; */
 }
 .Education{
     font-weight: 700;
@@ -214,8 +222,8 @@ margin-top: 50px;
 /* footer  */
 .foot{
     display: flex;
-    background-color: #fff8f3; ;
-
+    /* display: none; */
+    background-color: #fff8f3; 
 }
 .Lets{
     margin-top: 155px;
@@ -280,4 +288,79 @@ margin-top: 50px;
     font-size: 16px;
     margin-bottom: 105px;
 
+}
+@media screen and (max-width: 576px){
+    .flex{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .p-button{
+        margin: 0px;
+    }
+    .summary{
+        margin-bottom: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .sontan-8{
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction:column-reverse ;
+    }
+
+.finput{
+width:100%;
+}
+.M-finput{
+    width: 100%;
+    padding: 20px;
+    }
+   .B-lets{
+    margin: 20px;
+   }
+   .A-lets{
+margin: 20px;
+}
+.Lets{
+    margin: 20px;
+}
+.S-button{
+    margin-bottom: 10px;
+}
+.input{
+    padding: 20px;
+}
+.pasapasi{
+    flex-direction:column ;
+}
+.soja{
+    flex-direction:column;}
+    .Mary-hardy{
+        flex-direction:column ;
+        padding: 10px;
+    }
+    .main-first-section{
+        padding: 10px;
+        margin: 10px;}
+     .What-I-do{
+            margin: 10px ;  
+        }
+     .What-I-do-sub{
+            margin:10px;
+        }
+     .sontan-4{
+            flex-direction:column ;
+            margin-top: 10px;}
+     .Amain{
+                margin:10px ;
+            }
+            .About-Me{
+                flex-direction:column ;
+                padding-top: 10px;
+            }
+      .boro{
+               padding: 10px;
+            }
 }
